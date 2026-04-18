@@ -1,36 +1,58 @@
-# Task8-dashboard-
-# 📦 Parcel Management System (SQL Project)
+# 📊 Superstore Dashboard (Power BI)
 
-## 📌 Project Overview
-This project is a **Parcel Management System** designed to manage parcel delivery operations efficiently. It includes database design, SQL queries, and basic reporting features.
+## 📌 Overview
+This project is an interactive dashboard created using Power BI to analyze sales and profit data.
 
 ---
 
 ## 🎯 Features
-- Manage parcel details 📦
-- Track sender and receiver 👤
-- Branch-wise parcel management 🏢
-- Parcel status tracking 🚚
-- Generate reports using SQL queries 📊
+- KPI Cards (Total Sales, Profit, Profit Margin)
+- Sales by Category
+- Profit by Region
+- Sales Trend Over Time
+- Interactive Slicers
 
 ---
 
-## 🗂️ Database Tables
-- **customers** – Stores customer details
-- **parcel** – Stores parcel information
-- **branch** – Stores branch details
+## 🗂️ Dataset
+Dataset contains:
+- Order Date
+- Region
+- Category
+- Sales
+- Profit
 
 ---
 
-## 🧠 SQL Queries Included
+## ⚙️ Tools Used
+- Power BI
+- CSV Dataset
 
-### 1. Sender & Receiver Details
-```sql
-SELECT 
-    p.parcel_id,
-    c1.name AS sender,
-    c2.name AS receiver,
-    p.status
-FROM parcel p
-JOIN customers c1 ON p.sender_id = c1.customer_id
-JOIN customers c2 ON p.receiver_id = c2.customer_id;
+---
+
+## 📸 Screenshots
+Available in screenshots/ folder
+
+---
+
+## 🚀 How to Run
+1. Open Power BI
+2. Load dataset.csv
+3. Create visuals
+4. Explore dashboard
+
+---
+
+## 📌 Interview Questions
+
+### What is a slicer?
+A slicer is a visual filter used to interactively filter data.
+
+### Measure vs Dimension
+- Measure → Numeric (Sales, Profit)
+- Dimension → Category (Region, Category)
+
+---
+
+## ✨ Author
+Your Name
