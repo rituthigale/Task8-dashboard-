@@ -1,0 +1,11 @@
+Order Date,Region,Category,Sub-Category,Sales,Profit,State
+2023-01-05,West,Technology,Phones,500,120,California
+2023-01-10,East,Furniture,Chairs,300,50,New York
+2023-01-15,Central,Office Supplies,Binders,150,30,Texas
+2023-02-01,South,Technology,Laptops,800,200,Florida
+2023-02-10,West,Furniture,Tables,400,-20,California
+2023-02-20,East,Office Supplies,Paper,100,20,New York
+2023-03-05,Central,Technology,Accessories,250,60,Texas
+2023-03-15,South,Furniture,Bookcases,350,80,Florida
+2023-03-25,West,Office Supplies,Storage,200,40,California
+2023-04-01,East,Technology,Phones,600,150,New York
